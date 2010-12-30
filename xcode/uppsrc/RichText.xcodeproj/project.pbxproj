@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653826FF12998E3C00A50F8C /* RichImage.icpp in Sources */ = {isa = PBXBuildFile; fileRef = 6582356C1294C2FE007AE023 /* RichImage.icpp */; };
+		6538270012998E3C00A50F8C /* EncodeHTML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C621D128957A900D8267C /* EncodeHTML.cpp */; };
+		6538270112998E3C00A50F8C /* EncodeQtf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C621E128957A900D8267C /* EncodeQtf.cpp */; };
+		6538270212998E3C00A50F8C /* Format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C621F128957A900D8267C /* Format.cpp */; };
+		6538270312998E3C00A50F8C /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6220128957A900D8267C /* Object.cpp */; };
+		6538270412998E3C00A50F8C /* ParaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6221128957A900D8267C /* ParaData.cpp */; };
+		6538270512998E3C00A50F8C /* ParaPaint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6222128957A900D8267C /* ParaPaint.cpp */; };
+		6538270612998E3C00A50F8C /* ParaType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6223128957A900D8267C /* ParaType.cpp */; };
+		6538270712998E3C00A50F8C /* ParseQtf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6224128957A900D8267C /* ParseQtf.cpp */; };
+		6538270812998E3C00A50F8C /* TableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6225128957A900D8267C /* TableCell.cpp */; };
+		6538270912998E3C00A50F8C /* TableData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6226128957A900D8267C /* TableData.cpp */; };
+		6538270A12998E3C00A50F8C /* TableLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6227128957A900D8267C /* TableLayout.cpp */; };
+		6538270B12998E3C00A50F8C /* TablePaint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6228128957A900D8267C /* TablePaint.cpp */; };
+		6538270C12998E3C00A50F8C /* TextData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6229128957A900D8267C /* TextData.cpp */; };
+		6538270D12998E3C00A50F8C /* TextPaint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C622A128957A900D8267C /* TextPaint.cpp */; };
+		6538270E12998E3C00A50F8C /* TextStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C622B128957A900D8267C /* TextStyle.cpp */; };
+		6538270F12998E3C00A50F8C /* TextTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C622C128957A900D8267C /* TextTable.cpp */; };
+		6538271012998E3C00A50F8C /* TxtData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C622D128957A900D8267C /* TxtData.cpp */; };
+		6538271112998E3C00A50F8C /* TxtOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C622E128957A900D8267C /* TxtOp.cpp */; };
+		6538271212998E3C00A50F8C /* TxtPaint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C622F128957A900D8267C /* TxtPaint.cpp */; };
+		6538271312998E3C00A50F8C /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6230128957A900D8267C /* Util.cpp */; };
+		6599C80112B2A92C00CB757A /* libUpppng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6599C78612B2A5E800CB757A /* libUpppng.dylib */; };
+		6599C80212B2A93000CB757A /* UppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6599C79012B2A5F400CB757A /* UppCore.framework */; };
+		6599C80312B2A93300CB757A /* UppDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6599C79912B2A60200CB757A /* UppDraw.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6599C78512B2A5E800CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C6256128958E900D8267C /* png.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C60531288B64400D8267C;
+			remoteInfo = dynamic;
+		};
+		6599C78712B2A5E800CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C6256128958E900D8267C /* png.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65528CDB127EF06A00AD8B49;
+			remoteInfo = static;
+		};
+		6599C78F12B2A5F400CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B1C128862F400D8267C;
+			remoteInfo = UppCore;
+		};
+		6599C79812B2A60200CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B851288725B00D8267C;
+			remoteInfo = UppDraw;
+		};
+		6599C7FB12B2A91B00CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B1B128862F400D8267C;
+			remoteInfo = UppCore;
+		};
+		6599C7FD12B2A91B00CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C6256128958E900D8267C /* png.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C60521288B64400D8267C;
+			remoteInfo = dynamic;
+		};
+		6599C7FF12B2A91B00CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B841288725B00D8267C;
+			remoteInfo = UppDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		653826F312998D7300A50F8C /* UppRichText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UppRichText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653826F412998D7300A50F8C /* UppRichText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UppRichText-Info.plist"; sourceTree = "<group>"; };
+		654C5C331288868500D8267C /* Draw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Draw.xcodeproj; sourceTree = "<group>"; };
+		654C5C8A12888C8400D8267C /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Core.xcodeproj; sourceTree = "<group>"; };
+		654C5C951288901000D8267C /* libfontconfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfontconfig.dylib; path = /usr/X11/lib/libfontconfig.dylib; sourceTree = "<absolute>"; };
+		654C5C961288901000D8267C /* libfreetype.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.dylib; path = /usr/X11/lib/libfreetype.dylib; sourceTree = "<absolute>"; };
+		654C62131289578700D8267C /* Para.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Para.h; sourceTree = "<group>"; };
+		654C62141289578700D8267C /* RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichText.h; sourceTree = "<group>"; };
+		654C62151289578700D8267C /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		654C62161289578700D8267C /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		654C62171289578700D8267C /* Txt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Txt.h; sourceTree = "<group>"; };
+		654C621D128957A900D8267C /* EncodeHTML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EncodeHTML.cpp; sourceTree = "<group>"; };
+		654C621E128957A900D8267C /* EncodeQtf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EncodeQtf.cpp; sourceTree = "<group>"; };
+		654C621F128957A900D8267C /* Format.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Format.cpp; sourceTree = "<group>"; };
+		654C6220128957A900D8267C /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
+		654C6221128957A900D8267C /* ParaData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParaData.cpp; sourceTree = "<group>"; };
+		654C6222128957A900D8267C /* ParaPaint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParaPaint.cpp; sourceTree = "<group>"; };
+		654C6223128957A900D8267C /* ParaType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParaType.cpp; sourceTree = "<group>"; };
+		654C6224128957A900D8267C /* ParseQtf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParseQtf.cpp; sourceTree = "<group>"; };
+		654C6225128957A900D8267C /* TableCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TableCell.cpp; sourceTree = "<group>"; };
+		654C6226128957A900D8267C /* TableData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TableData.cpp; sourceTree = "<group>"; };
+		654C6227128957A900D8267C /* TableLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TableLayout.cpp; sourceTree = "<group>"; };
+		654C6228128957A900D8267C /* TablePaint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TablePaint.cpp; sourceTree = "<group>"; };
+		654C6229128957A900D8267C /* TextData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextData.cpp; sourceTree = "<group>"; };
+		654C622A128957A900D8267C /* TextPaint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextPaint.cpp; sourceTree = "<group>"; };
+		654C622B128957A900D8267C /* TextStyle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextStyle.cpp; sourceTree = "<group>"; };
+		654C622C128957A900D8267C /* TextTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextTable.cpp; sourceTree = "<group>"; };
+		654C622D128957A900D8267C /* TxtData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TxtData.cpp; sourceTree = "<group>"; };
+		654C622E128957A900D8267C /* TxtOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TxtOp.cpp; sourceTree = "<group>"; };
+		654C622F128957A900D8267C /* TxtPaint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TxtPaint.cpp; sourceTree = "<group>"; };
+		654C6230128957A900D8267C /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		654C6256128958E900D8267C /* png.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = png.xcodeproj; sourceTree = "<group>"; };
+		6582356C1294C2FE007AE023 /* RichImage.icpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = RichImage.icpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653826F112998D7300A50F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6599C80112B2A92C00CB757A /* libUpppng.dylib in Frameworks */,
+				6599C80212B2A93000CB757A /* UppCore.framework in Frameworks */,
+				6599C80312B2A93300CB757A /* UppDraw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FoxCore */ = {
+			isa = PBXGroup;
+			children = (
+				654C6256128958E900D8267C /* png.xcodeproj */,
+				654C5C8A12888C8400D8267C /* Core.xcodeproj */,
+				654C5C331288868500D8267C /* Draw.xcodeproj */,
+				65528A2A127E845800AD8B49 /* Headers */,
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				653826F412998D7300A50F8C /* UppRichText-Info.plist */,
+			);
+			name = FoxCore;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C951288901000D8267C /* libfontconfig.dylib */,
+				654C5C961288901000D8267C /* libfreetype.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6582356C1294C2FE007AE023 /* RichImage.icpp */,
+				654C621D128957A900D8267C /* EncodeHTML.cpp */,
+				654C621E128957A900D8267C /* EncodeQtf.cpp */,
+				654C621F128957A900D8267C /* Format.cpp */,
+				654C6220128957A900D8267C /* Object.cpp */,
+				654C6221128957A900D8267C /* ParaData.cpp */,
+				654C6222128957A900D8267C /* ParaPaint.cpp */,
+				654C6223128957A900D8267C /* ParaType.cpp */,
+				654C6224128957A900D8267C /* ParseQtf.cpp */,
+				654C6225128957A900D8267C /* TableCell.cpp */,
+				654C6226128957A900D8267C /* TableData.cpp */,
+				654C6227128957A900D8267C /* TableLayout.cpp */,
+				654C6228128957A900D8267C /* TablePaint.cpp */,
+				654C6229128957A900D8267C /* TextData.cpp */,
+				654C622A128957A900D8267C /* TextPaint.cpp */,
+				654C622B128957A900D8267C /* TextStyle.cpp */,
+				654C622C128957A900D8267C /* TextTable.cpp */,
+				654C622D128957A900D8267C /* TxtData.cpp */,
+				654C622E128957A900D8267C /* TxtOp.cpp */,
+				654C622F128957A900D8267C /* TxtPaint.cpp */,
+				654C6230128957A900D8267C /* Util.cpp */,
+			);
+			name = Source;
+			path = ../../uppsrc/RichText;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653826F312998D7300A50F8C /* UppRichText.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65528A2A127E845800AD8B49 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				654C62131289578700D8267C /* Para.h */,
+				654C62141289578700D8267C /* RichText.h */,
+				654C62151289578700D8267C /* Table.h */,
+				654C62161289578700D8267C /* Text.h */,
+				654C62171289578700D8267C /* Txt.h */,
+			);
+			name = Headers;
+			path = ../../uppsrc/RichText;
+			sourceTree = "<group>";
+		};
+		6599C78112B2A5E800CB757A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6599C78612B2A5E800CB757A /* libUpppng.dylib */,
+				6599C78812B2A5E800CB757A /* libUpppng_static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6599C78C12B2A5F400CB757A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6599C79012B2A5F400CB757A /* UppCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6599C79512B2A60200CB757A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6599C79912B2A60200CB757A /* UppDraw.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		653826EE12998D7300A50F8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		653826F212998D7300A50F8C /* UppRichText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653826F812998D7300A50F8C /* Build configuration list for PBXNativeTarget "UppRichText" */;
+			buildPhases = (
+				653826EE12998D7300A50F8C /* Headers */,
+				653826EF12998D7300A50F8C /* Resources */,
+				653826F012998D7300A50F8C /* Sources */,
+				653826F112998D7300A50F8C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6599C7FC12B2A91B00CB757A /* PBXTargetDependency */,
+				6599C7FE12B2A91B00CB757A /* PBXTargetDependency */,
+				6599C80012B2A91B00CB757A /* PBXTargetDependency */,
+			);
+			name = UppRichText;
+			productName = UppRichText;
+			productReference = 653826F312998D7300A50F8C /* UppRichText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = www.ultimatepp.org;
+			};
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "RichText" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* FoxCore */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6599C78C12B2A5F400CB757A /* Products */;
+					ProjectRef = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+				},
+				{
+					ProductGroup = 6599C79512B2A60200CB757A /* Products */;
+					ProjectRef = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+				},
+				{
+					ProductGroup = 6599C78112B2A5E800CB757A /* Products */;
+					ProjectRef = 654C6256128958E900D8267C /* png.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				653826F212998D7300A50F8C /* UppRichText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6599C78612B2A5E800CB757A /* libUpppng.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libUpppng.dylib;
+			remoteRef = 6599C78512B2A5E800CB757A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6599C78812B2A5E800CB757A /* libUpppng_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUpppng_static.a;
+			remoteRef = 6599C78712B2A5E800CB757A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6599C79012B2A5F400CB757A /* UppCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppCore.framework;
+			remoteRef = 6599C78F12B2A5F400CB757A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6599C79912B2A60200CB757A /* UppDraw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppDraw.framework;
+			remoteRef = 6599C79812B2A60200CB757A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653826EF12998D7300A50F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653826F012998D7300A50F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653826FF12998E3C00A50F8C /* RichImage.icpp in Sources */,
+				6538270012998E3C00A50F8C /* EncodeHTML.cpp in Sources */,
+				6538270112998E3C00A50F8C /* EncodeQtf.cpp in Sources */,
+				6538270212998E3C00A50F8C /* Format.cpp in Sources */,
+				6538270312998E3C00A50F8C /* Object.cpp in Sources */,
+				6538270412998E3C00A50F8C /* ParaData.cpp in Sources */,
+				6538270512998E3C00A50F8C /* ParaPaint.cpp in Sources */,
+				6538270612998E3C00A50F8C /* ParaType.cpp in Sources */,
+				6538270712998E3C00A50F8C /* ParseQtf.cpp in Sources */,
+				6538270812998E3C00A50F8C /* TableCell.cpp in Sources */,
+				6538270912998E3C00A50F8C /* TableData.cpp in Sources */,
+				6538270A12998E3C00A50F8C /* TableLayout.cpp in Sources */,
+				6538270B12998E3C00A50F8C /* TablePaint.cpp in Sources */,
+				6538270C12998E3C00A50F8C /* TextData.cpp in Sources */,
+				6538270D12998E3C00A50F8C /* TextPaint.cpp in Sources */,
+				6538270E12998E3C00A50F8C /* TextStyle.cpp in Sources */,
+				6538270F12998E3C00A50F8C /* TextTable.cpp in Sources */,
+				6538271012998E3C00A50F8C /* TxtData.cpp in Sources */,
+				6538271112998E3C00A50F8C /* TxtOp.cpp in Sources */,
+				6538271212998E3C00A50F8C /* TxtPaint.cpp in Sources */,
+				6538271312998E3C00A50F8C /* Util.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6599C7FC12B2A91B00CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppCore;
+			targetProxy = 6599C7FB12B2A91B00CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7FE12B2A91B00CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dynamic;
+			targetProxy = 6599C7FD12B2A91B00CB757A /* PBXContainerItemProxy */;
+		};
+		6599C80012B2A91B00CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppDraw;
+			targetProxy = 6599C7FF12B2A91B00CB757A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB911F08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				EXECUTABLE_EXTENSION = dylib;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					"/usr/X11/include/**",
+				);
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "Upp$(PROJECT_NAME)-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_GROUP = staff;
+				INSTALL_PATH = /Library/Frameworks;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DflagDEBUG",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = UppRichText;
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB912008733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					"/usr/X11/include/**",
+				);
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "Upp$(PROJECT_NAME)-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_GROUP = staff;
+				INSTALL_PATH = /Library/Frameworks;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = UppRichText;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				SKIP_INSTALL = NO;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		653826F612998D7300A50F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = "UppRichText-Info.plist";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /Library/Frameworks;
+				OTHER_LDFLAGS = "-shared";
+				PREBINDING = NO;
+				PRODUCT_NAME = UppRichText;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		653826F712998D7300A50F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "UppRichText-Info.plist";
+				INSTALL_PATH = /Library/Frameworks;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = UppRichText;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "RichText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911F08733D790010E9CD /* Debug */,
+				1DEB912008733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653826F812998D7300A50F8C /* Build configuration list for PBXNativeTarget "UppRichText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653826F612998D7300A50F8C /* Debug */,
+				653826F712998D7300A50F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

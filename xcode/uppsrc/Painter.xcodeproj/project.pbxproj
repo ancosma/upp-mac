@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654C5ADF128856C500D8267C /* Approximate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC621284889B0066750D /* Approximate.cpp */; };
+		654C5AE0128856C500D8267C /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC631284889B0066750D /* Context.cpp */; };
+		654C5AE1128856C500D8267C /* Dasher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC641284889B0066750D /* Dasher.cpp */; };
+		654C5AE2128856C500D8267C /* DrawOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC651284889B0066750D /* DrawOp.cpp */; };
+		654C5AE3128856C500D8267C /* Fillers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC661284889B0066750D /* Fillers.cpp */; };
+		654C5AE4128856C500D8267C /* FontWin32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC671284889B0066750D /* FontWin32.cpp */; };
+		654C5AE5128856C500D8267C /* FontX11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC681284889B0066750D /* FontX11.cpp */; };
+		654C5AE6128856C500D8267C /* Gradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC691284889B0066750D /* Gradient.cpp */; };
+		654C5AE7128856C500D8267C /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC6A1284889B0066750D /* Image.cpp */; };
+		654C5AE8128856C500D8267C /* Interpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC6B1284889B0066750D /* Interpolator.cpp */; };
+		654C5AE9128856C500D8267C /* Mask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC6C1284889B0066750D /* Mask.cpp */; };
+		654C5AEA128856C500D8267C /* OnPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC6D1284889B0066750D /* OnPath.cpp */; };
+		654C5AEB128856C500D8267C /* Painter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC6E1284889B0066750D /* Painter.cpp */; };
+		654C5AEC128856C500D8267C /* PainterPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC6F1284889B0066750D /* PainterPath.cpp */; };
+		654C5AED128856C500D8267C /* Painting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC701284889B0066750D /* Painting.cpp */; };
+		654C5AEE128856C500D8267C /* Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC711284889B0066750D /* Path.cpp */; };
+		654C5AEF128856C500D8267C /* RadialGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC721284889B0066750D /* RadialGradient.cpp */; };
+		654C5AF0128856C500D8267C /* Rasterizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC731284889B0066750D /* Rasterizer.cpp */; };
+		654C5AF1128856C500D8267C /* RasterizerClip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC741284889B0066750D /* RasterizerClip.cpp */; };
+		654C5AF2128856C500D8267C /* Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC751284889B0066750D /* Render.cpp */; };
+		654C5AF3128856C500D8267C /* RenderChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC761284889B0066750D /* RenderChar.cpp */; };
+		654C5AF4128856C500D8267C /* Stroker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC771284889B0066750D /* Stroker.cpp */; };
+		654C5AF5128856C500D8267C /* SvgArc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC781284889B0066750D /* SvgArc.cpp */; };
+		654C5AF6128856C500D8267C /* Transformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC791284889B0066750D /* Transformer.cpp */; };
+		654C5AF7128856C500D8267C /* Xform2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995BEC7A1284889B0066750D /* Xform2D.cpp */; };
+		654C5C391288869700D8267C /* UppDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C5C381288868500D8267C /* UppDraw.framework */; };
+		654C5C9012888CAF00D8267C /* UppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C5C8F12888C8400D8267C /* UppCore.framework */; };
+		654C5C971288901000D8267C /* libfontconfig.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C5C951288901000D8267C /* libfontconfig.dylib */; };
+		654C5C981288901000D8267C /* libfreetype.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C5C961288901000D8267C /* libfreetype.dylib */; };
+		654C5CB5128892FD00D8267C /* Painter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 995BEC97128488C30066750D /* Painter.hpp */; };
+		654C5CB61288930000D8267C /* Painter.h in Headers */ = {isa = PBXBuildFile; fileRef = 995BEC96128488C30066750D /* Painter.h */; };
+		654C5CB71288930400D8267C /* Fillers.h in Headers */ = {isa = PBXBuildFile; fileRef = 995BEC95128488C30066750D /* Fillers.h */; };
+		654C5CB81288930900D8267C /* BufferPainter.h in Headers */ = {isa = PBXBuildFile; fileRef = 995BEC94128488C30066750D /* BufferPainter.h */; };
+		654C5CB91288930D00D8267C /* Painting.h in Headers */ = {isa = PBXBuildFile; fileRef = 995BEC98128488C30066750D /* Painting.h */; };
+		654C5CBA1288931000D8267C /* Rasterizer3.h in Headers */ = {isa = PBXBuildFile; fileRef = 995BEC99128488C30066750D /* Rasterizer3.h */; };
+		654C5CC01288941700D8267C /* PaintPainting.icpp in Resources */ = {isa = PBXBuildFile; fileRef = 654C5CBF1288941700D8267C /* PaintPainting.icpp */; };
+		654C5CC11288947900D8267C /* PaintPainting.icpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C5CBF1288941700D8267C /* PaintPainting.icpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654C5C371288868500D8267C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B851288725B00D8267C /* UppDraw.framework */;
+			remoteInfo = UppDraw;
+		};
+		654C5C8E12888C8400D8267C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B1C128862F400D8267C /* UppCore.framework */;
+			remoteInfo = UppCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		654C5AD7128855EA00D8267C /* UppPainter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UppPainter-Info.plist"; sourceTree = "<group>"; };
+		654C5C331288868500D8267C /* Draw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Draw.xcodeproj; path = ../Draw/Draw.xcodeproj; sourceTree = SOURCE_ROOT; };
+		654C5C6F12888AF400D8267C /* UppPainter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UppPainter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654C5C8A12888C8400D8267C /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Core.xcodeproj; path = ../Core/Core.xcodeproj; sourceTree = SOURCE_ROOT; };
+		654C5C951288901000D8267C /* libfontconfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfontconfig.dylib; path = /usr/X11/lib/libfontconfig.dylib; sourceTree = "<absolute>"; };
+		654C5C961288901000D8267C /* libfreetype.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.dylib; path = /usr/X11/lib/libfreetype.dylib; sourceTree = "<absolute>"; };
+		654C5CBF1288941700D8267C /* PaintPainting.icpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = PaintPainting.icpp; sourceTree = "<group>"; };
+		995BEC621284889B0066750D /* Approximate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Approximate.cpp; sourceTree = "<group>"; };
+		995BEC631284889B0066750D /* Context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Context.cpp; sourceTree = "<group>"; };
+		995BEC641284889B0066750D /* Dasher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dasher.cpp; sourceTree = "<group>"; };
+		995BEC651284889B0066750D /* DrawOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawOp.cpp; sourceTree = "<group>"; };
+		995BEC661284889B0066750D /* Fillers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fillers.cpp; sourceTree = "<group>"; };
+		995BEC671284889B0066750D /* FontWin32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FontWin32.cpp; sourceTree = "<group>"; };
+		995BEC681284889B0066750D /* FontX11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FontX11.cpp; sourceTree = "<group>"; };
+		995BEC691284889B0066750D /* Gradient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gradient.cpp; sourceTree = "<group>"; };
+		995BEC6A1284889B0066750D /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
+		995BEC6B1284889B0066750D /* Interpolator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interpolator.cpp; sourceTree = "<group>"; };
+		995BEC6C1284889B0066750D /* Mask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mask.cpp; sourceTree = "<group>"; };
+		995BEC6D1284889B0066750D /* OnPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnPath.cpp; sourceTree = "<group>"; };
+		995BEC6E1284889B0066750D /* Painter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Painter.cpp; sourceTree = "<group>"; };
+		995BEC6F1284889B0066750D /* PainterPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PainterPath.cpp; sourceTree = "<group>"; };
+		995BEC701284889B0066750D /* Painting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Painting.cpp; sourceTree = "<group>"; };
+		995BEC711284889B0066750D /* Path.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Path.cpp; sourceTree = "<group>"; };
+		995BEC721284889B0066750D /* RadialGradient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadialGradient.cpp; sourceTree = "<group>"; };
+		995BEC731284889B0066750D /* Rasterizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rasterizer.cpp; sourceTree = "<group>"; };
+		995BEC741284889B0066750D /* RasterizerClip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RasterizerClip.cpp; sourceTree = "<group>"; };
+		995BEC751284889B0066750D /* Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Render.cpp; sourceTree = "<group>"; };
+		995BEC761284889B0066750D /* RenderChar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderChar.cpp; sourceTree = "<group>"; };
+		995BEC771284889B0066750D /* Stroker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stroker.cpp; sourceTree = "<group>"; };
+		995BEC781284889B0066750D /* SvgArc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SvgArc.cpp; sourceTree = "<group>"; };
+		995BEC791284889B0066750D /* Transformer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transformer.cpp; sourceTree = "<group>"; };
+		995BEC7A1284889B0066750D /* Xform2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Xform2D.cpp; sourceTree = "<group>"; };
+		995BEC94128488C30066750D /* BufferPainter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferPainter.h; sourceTree = "<group>"; };
+		995BEC95128488C30066750D /* Fillers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fillers.h; sourceTree = "<group>"; };
+		995BEC96128488C30066750D /* Painter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Painter.h; sourceTree = "<group>"; };
+		995BEC97128488C30066750D /* Painter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Painter.hpp; sourceTree = "<group>"; };
+		995BEC98128488C30066750D /* Painting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Painting.h; sourceTree = "<group>"; };
+		995BEC99128488C30066750D /* Rasterizer3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rasterizer3.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654C5AD4128855EA00D8267C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C5C391288869700D8267C /* UppDraw.framework in Frameworks */,
+				654C5C9012888CAF00D8267C /* UppCore.framework in Frameworks */,
+				654C5C971288901000D8267C /* libfontconfig.dylib in Frameworks */,
+				654C5C981288901000D8267C /* libfreetype.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FoxCore */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C8A12888C8400D8267C /* Core.xcodeproj */,
+				654C5C331288868500D8267C /* Draw.xcodeproj */,
+				65528A2A127E845800AD8B49 /* Headers */,
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				654C5AD7128855EA00D8267C /* UppPainter-Info.plist */,
+			);
+			name = FoxCore;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C951288901000D8267C /* libfontconfig.dylib */,
+				654C5C961288901000D8267C /* libfreetype.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				654C5CBF1288941700D8267C /* PaintPainting.icpp */,
+				995BEC621284889B0066750D /* Approximate.cpp */,
+				995BEC631284889B0066750D /* Context.cpp */,
+				995BEC641284889B0066750D /* Dasher.cpp */,
+				995BEC651284889B0066750D /* DrawOp.cpp */,
+				995BEC661284889B0066750D /* Fillers.cpp */,
+				995BEC671284889B0066750D /* FontWin32.cpp */,
+				995BEC681284889B0066750D /* FontX11.cpp */,
+				995BEC691284889B0066750D /* Gradient.cpp */,
+				995BEC6A1284889B0066750D /* Image.cpp */,
+				995BEC6B1284889B0066750D /* Interpolator.cpp */,
+				995BEC6C1284889B0066750D /* Mask.cpp */,
+				995BEC6D1284889B0066750D /* OnPath.cpp */,
+				995BEC6E1284889B0066750D /* Painter.cpp */,
+				995BEC6F1284889B0066750D /* PainterPath.cpp */,
+				995BEC701284889B0066750D /* Painting.cpp */,
+				995BEC711284889B0066750D /* Path.cpp */,
+				995BEC721284889B0066750D /* RadialGradient.cpp */,
+				995BEC731284889B0066750D /* Rasterizer.cpp */,
+				995BEC741284889B0066750D /* RasterizerClip.cpp */,
+				995BEC751284889B0066750D /* Render.cpp */,
+				995BEC761284889B0066750D /* RenderChar.cpp */,
+				995BEC771284889B0066750D /* Stroker.cpp */,
+				995BEC781284889B0066750D /* SvgArc.cpp */,
+				995BEC791284889B0066750D /* Transformer.cpp */,
+				995BEC7A1284889B0066750D /* Xform2D.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C6F12888AF400D8267C /* UppPainter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654C5C341288868500D8267C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C381288868500D8267C /* UppDraw.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654C5C8B12888C8400D8267C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C8F12888C8400D8267C /* UppCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65528A2A127E845800AD8B49 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				995BEC94128488C30066750D /* BufferPainter.h */,
+				995BEC95128488C30066750D /* Fillers.h */,
+				995BEC96128488C30066750D /* Painter.h */,
+				995BEC97128488C30066750D /* Painter.hpp */,
+				995BEC98128488C30066750D /* Painting.h */,
+				995BEC99128488C30066750D /* Rasterizer3.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		654C5AD1128855EA00D8267C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C5CB5128892FD00D8267C /* Painter.hpp in Headers */,
+				654C5CB61288930000D8267C /* Painter.h in Headers */,
+				654C5CB71288930400D8267C /* Fillers.h in Headers */,
+				654C5CB81288930900D8267C /* BufferPainter.h in Headers */,
+				654C5CB91288930D00D8267C /* Painting.h in Headers */,
+				654C5CBA1288931000D8267C /* Rasterizer3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		654C5AD5128855EA00D8267C /* UppPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654C5ADA128855EB00D8267C /* Build configuration list for PBXNativeTarget "UppPainter" */;
+			buildPhases = (
+				654C5AD1128855EA00D8267C /* Headers */,
+				654C5AD2128855EA00D8267C /* Resources */,
+				654C5AD3128855EA00D8267C /* Sources */,
+				654C5AD4128855EA00D8267C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UppPainter;
+			productName = UppPainter;
+			productReference = 654C5C6F12888AF400D8267C /* UppPainter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = www.ultimatepp.org;
+			};
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "Painter" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* FoxCore */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 654C5C8B12888C8400D8267C /* Products */;
+					ProjectRef = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+				},
+				{
+					ProductGroup = 654C5C341288868500D8267C /* Products */;
+					ProjectRef = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				654C5AD5128855EA00D8267C /* UppPainter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		654C5C381288868500D8267C /* UppDraw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppDraw.framework;
+			remoteRef = 654C5C371288868500D8267C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		654C5C8F12888C8400D8267C /* UppCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppCore.framework;
+			remoteRef = 654C5C8E12888C8400D8267C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654C5AD2128855EA00D8267C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C5CC01288941700D8267C /* PaintPainting.icpp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654C5AD3128855EA00D8267C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C5AEB128856C500D8267C /* Painter.cpp in Sources */,
+				654C5AF5128856C500D8267C /* SvgArc.cpp in Sources */,
+				654C5AEC128856C500D8267C /* PainterPath.cpp in Sources */,
+				654C5AE4128856C500D8267C /* FontWin32.cpp in Sources */,
+				654C5AE5128856C500D8267C /* FontX11.cpp in Sources */,
+				654C5AE2128856C500D8267C /* DrawOp.cpp in Sources */,
+				654C5AED128856C500D8267C /* Painting.cpp in Sources */,
+				654C5CC11288947900D8267C /* PaintPainting.icpp in Sources */,
+				654C5AF7128856C500D8267C /* Xform2D.cpp in Sources */,
+				654C5ADF128856C500D8267C /* Approximate.cpp in Sources */,
+				654C5AF4128856C500D8267C /* Stroker.cpp in Sources */,
+				654C5AE1128856C500D8267C /* Dasher.cpp in Sources */,
+				654C5AF6128856C500D8267C /* Transformer.cpp in Sources */,
+				654C5AE8128856C500D8267C /* Interpolator.cpp in Sources */,
+				654C5AF0128856C500D8267C /* Rasterizer.cpp in Sources */,
+				654C5AF1128856C500D8267C /* RasterizerClip.cpp in Sources */,
+				654C5AEE128856C500D8267C /* Path.cpp in Sources */,
+				654C5AE0128856C500D8267C /* Context.cpp in Sources */,
+				654C5AE3128856C500D8267C /* Fillers.cpp in Sources */,
+				654C5AF3128856C500D8267C /* RenderChar.cpp in Sources */,
+				654C5AF2128856C500D8267C /* Render.cpp in Sources */,
+				654C5AE7128856C500D8267C /* Image.cpp in Sources */,
+				654C5AE9128856C500D8267C /* Mask.cpp in Sources */,
+				654C5AE6128856C500D8267C /* Gradient.cpp in Sources */,
+				654C5AEF128856C500D8267C /* RadialGradient.cpp in Sources */,
+				654C5AEA128856C500D8267C /* OnPath.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB911F08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					"/usr/X11/include/**",
+				);
+				INSTALL_GROUP = staff;
+				INSTALL_PATH = /Library/Frameworks;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = UppPainter;
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB912008733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					"/usr/X11/include/**",
+				);
+				INSTALL_GROUP = staff;
+				INSTALL_PATH = /Library/Frameworks;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DflagOSX11",
+					"-c",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = UppPainter;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				SKIP_INSTALL = NO;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		654C5AD8128855EB00D8267C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "UppPainter-Info.plist";
+				INSTALL_PATH = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/X11/lib,
+				);
+				OTHER_LDFLAGS = "-shared";
+				PREBINDING = NO;
+				PRODUCT_NAME = UppPainter;
+			};
+			name = Debug;
+		};
+		654C5AD9128855EB00D8267C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "UppPainter-Info.plist";
+				INSTALL_PATH = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/X11/lib,
+				);
+				OTHER_LDFLAGS = "-shared";
+				PREBINDING = NO;
+				PRODUCT_NAME = UppPainter;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "Painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911F08733D790010E9CD /* Debug */,
+				1DEB912008733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654C5ADA128855EB00D8267C /* Build configuration list for PBXNativeTarget "UppPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654C5AD8128855EB00D8267C /* Debug */,
+				654C5AD9128855EB00D8267C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

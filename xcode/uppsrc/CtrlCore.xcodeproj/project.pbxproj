@@ -1,0 +1,1178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650A597312A035340034F654 /* CtrlCore.icpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C659B128AED2500D8267C /* CtrlCore.icpp */; };
+		650A597D12A03AF20034F654 /* MacWnd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 650A597C12A03AF20034F654 /* MacWnd.mm */; };
+		650A5AEB12A067AD0034F654 /* UNSApplicationDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 650A5AE512A067AD0034F654 /* UNSApplicationDelegate.mm */; };
+		650A5AFE12A069BA0034F654 /* UNSApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 650A5AE412A067AD0034F654 /* UNSApplicationDelegate.h */; };
+		650A5D7F12A1CBDF0034F654 /* UNSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 650A5D7D12A1CBDF0034F654 /* UNSWindow.h */; };
+		650A5D8012A1CBDF0034F654 /* UNSWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 650A5D7E12A1CBDF0034F654 /* UNSWindow.mm */; };
+		650A5D8312A1D0E20034F654 /* UNSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 650A5D8112A1D0E20034F654 /* UNSView.h */; };
+		650A5D8412A1D0E20034F654 /* UNSView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 650A5D8212A1D0E20034F654 /* UNSView.mm */; };
+		650A5D8712A1D1500034F654 /* UNSApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 650A5D8512A1D1500034F654 /* UNSApplication.h */; };
+		650A5D8812A1D1500034F654 /* UNSApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 650A5D8612A1D1500034F654 /* UNSApplication.mm */; };
+		6520236B12A661D9008F3643 /* CtrlCore_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 6520236A12A661D9008F3643 /* CtrlCore_Prefix.h */; };
+		6520238A12A6733A008F3643 /* UppCtrlCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C5C6F12888AF400D8267C /* UppCtrlCore.framework */; };
+		652023C312A67D51008F3643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6520236C12A6638E008F3643 /* main.cpp */; };
+		653AFCF512C2B38700661712 /* MacWnd1.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AFCF412C2B38700661712 /* MacWnd1.h */; };
+		653AFDEB12C2F33C00661712 /* UppDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473BB12ADB5750082F485 /* UppDraw.framework */; };
+		654C5C971288901000D8267C /* libfontconfig.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C5C951288901000D8267C /* libfontconfig.dylib */; };
+		654C5C981288901000D8267C /* libfreetype.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C5C961288901000D8267C /* libfreetype.dylib */; };
+		654C6541128AECEE00D8267C /* CtrlCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C6539128AECEE00D8267C /* CtrlCore.h */; };
+		654C6542128AECEE00D8267C /* DrawWin32.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C653A128AECEE00D8267C /* DrawWin32.h */; };
+		654C6543128AECEE00D8267C /* DrawX11.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C653B128AECEE00D8267C /* DrawX11.h */; };
+		654C6544128AECEE00D8267C /* lay.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C653C128AECEE00D8267C /* lay.h */; };
+		654C6545128AECEE00D8267C /* llay.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C653D128AECEE00D8267C /* llay.h */; };
+		654C6546128AECEE00D8267C /* MKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C653E128AECEE00D8267C /* MKeys.h */; };
+		654C6547128AECEE00D8267C /* SystemDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C653F128AECEE00D8267C /* SystemDraw.h */; };
+		654C6548128AECEE00D8267C /* TopWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C6540128AECEE00D8267C /* TopWindow.h */; };
+		654C6572128AED0D00D8267C /* BackDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6549128AED0D00D8267C /* BackDraw.cpp */; };
+		654C6573128AED0D00D8267C /* Ctrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C654A128AED0D00D8267C /* Ctrl.mm */; };
+		654C6574128AED0D00D8267C /* CtrlChild.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C654B128AED0D00D8267C /* CtrlChild.mm */; };
+		654C6575128AED0D00D8267C /* CtrlClip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C654C128AED0D00D8267C /* CtrlClip.cpp */; };
+		654C6576128AED0D00D8267C /* CtrlDraw.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C654D128AED0D00D8267C /* CtrlDraw.mm */; };
+		654C6577128AED0D00D8267C /* CtrlKbd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C654E128AED0D00D8267C /* CtrlKbd.mm */; };
+		654C6578128AED0D00D8267C /* CtrlMouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C654F128AED0D00D8267C /* CtrlMouse.cpp */; };
+		654C6579128AED0D00D8267C /* CtrlMt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C6550128AED0D00D8267C /* CtrlMt.mm */; };
+		654C657A128AED0D00D8267C /* CtrlPos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6551128AED0D00D8267C /* CtrlPos.cpp */; };
+		654C657B128AED0D00D8267C /* CtrlTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6552128AED0D00D8267C /* CtrlTimer.cpp */; };
+		654C657C128AED0D00D8267C /* DHCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6553128AED0D00D8267C /* DHCtrl.cpp */; };
+		654C657D128AED0D00D8267C /* DrawOpWin32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6554128AED0D00D8267C /* DrawOpWin32.cpp */; };
+		654C657E128AED0D00D8267C /* DrawOpX11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6555128AED0D00D8267C /* DrawOpX11.cpp */; };
+		654C657F128AED0D00D8267C /* DrawTextWin32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6556128AED0D00D8267C /* DrawTextWin32.cpp */; };
+		654C6580128AED0D00D8267C /* DrawTextX11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6557128AED0D00D8267C /* DrawTextX11.cpp */; };
+		654C6581128AED0D00D8267C /* DrawUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6558128AED0D00D8267C /* DrawUtil.cpp */; };
+		654C6582128AED0D00D8267C /* DrawWin32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6559128AED0D00D8267C /* DrawWin32.cpp */; };
+		654C6583128AED0D00D8267C /* DrawX11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C655A128AED0D00D8267C /* DrawX11.cpp */; };
+		654C6584128AED0D00D8267C /* EncodeRTF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C655B128AED0D00D8267C /* EncodeRTF.cpp */; };
+		654C6585128AED0D00D8267C /* Frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C655C128AED0D00D8267C /* Frame.cpp */; };
+		654C6586128AED0D00D8267C /* ImageWin32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C655D128AED0D00D8267C /* ImageWin32.cpp */; };
+		654C6587128AED0D00D8267C /* ImageX11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C655E128AED0D00D8267C /* ImageX11.cpp */; };
+		654C6588128AED0D00D8267C /* LocalLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C655F128AED0D00D8267C /* LocalLoop.cpp */; };
+		654C6589128AED0D00D8267C /* MetaFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6560128AED0D00D8267C /* MetaFile.cpp */; };
+		654C658A128AED0D00D8267C /* ParseRTF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6561128AED0D00D8267C /* ParseRTF.cpp */; };
+		654C658B128AED0D00D8267C /* SystemDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6562128AED0D00D8267C /* SystemDraw.cpp */; };
+		654C658C128AED0D00D8267C /* TopWin32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6563128AED0D00D8267C /* TopWin32.cpp */; };
+		654C658D128AED0D00D8267C /* TopWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C6564128AED0D00D8267C /* TopWindow.mm */; };
+		654C658E128AED0D00D8267C /* TopWinX11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6565128AED0D00D8267C /* TopWinX11.cpp */; };
+		654C658F128AED0D00D8267C /* Win32Clip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6566128AED0D00D8267C /* Win32Clip.cpp */; };
+		654C6590128AED0D00D8267C /* Win32DnD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6567128AED0D00D8267C /* Win32DnD.cpp */; };
+		654C6591128AED0D00D8267C /* Win32Proc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6568128AED0D00D8267C /* Win32Proc.cpp */; };
+		654C6592128AED0D00D8267C /* Win32Wnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6569128AED0D00D8267C /* Win32Wnd.cpp */; };
+		654C6593128AED0D00D8267C /* X11App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C656A128AED0D00D8267C /* X11App.cpp */; };
+		654C6594128AED0D00D8267C /* X11Clip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C656B128AED0D00D8267C /* X11Clip.cpp */; };
+		654C6595128AED0D00D8267C /* X11DHCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C656C128AED0D00D8267C /* X11DHCtrl.cpp */; };
+		654C6596128AED0D00D8267C /* X11DnD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C656D128AED0D00D8267C /* X11DnD.cpp */; };
+		654C6597128AED0D00D8267C /* X11ImgClip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C656E128AED0D00D8267C /* X11ImgClip.cpp */; };
+		654C6598128AED0D00D8267C /* X11Proc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C656F128AED0D00D8267C /* X11Proc.cpp */; };
+		654C6599128AED0D00D8267C /* X11Wnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6570128AED0D00D8267C /* X11Wnd.cpp */; };
+		654C659A128AED0D00D8267C /* Xmlize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C6571128AED0D00D8267C /* Xmlize.cpp */; };
+		654C8451128ECE8700D8267C /* DrawMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C844F128ECE8700D8267C /* DrawMac.h */; };
+		654C8452128ECE8700D8267C /* DrawMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C8450128ECE8700D8267C /* DrawMac.mm */; };
+		654C8455128ECF1900D8267C /* DrawOpMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C8454128ECF1900D8267C /* DrawOpMac.mm */; };
+		654C8463128ED58600D8267C /* DrawTextMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C8462128ED58600D8267C /* DrawTextMac.mm */; };
+		654C8465128ED97B00D8267C /* ImageMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654C8464128ED97B00D8267C /* ImageMac.mm */; };
+		654C8482128EDE3100D8267C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C8481128EDE3100D8267C /* Cocoa.framework */; };
+		658629D4129FE15700D8A290 /* MacClip.mm in Sources */ = {isa = PBXBuildFile; fileRef = 658629CF129FE15700D8A290 /* MacClip.mm */; };
+		658629D5129FE15700D8A290 /* MacDHCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 658629D0129FE15700D8A290 /* MacDHCtrl.mm */; };
+		658629D6129FE15700D8A290 /* MacDnD.mm in Sources */ = {isa = PBXBuildFile; fileRef = 658629D1129FE15700D8A290 /* MacDnD.mm */; };
+		6599C7DD12B2A83A00CB757A /* libUpppng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473C512ADB9690082F485 /* libUpppng.dylib */; };
+		6599C7DE12B2A84000CB757A /* UppRichText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473D212ADB9750082F485 /* UppRichText.framework */; };
+		6599C7DF12B2A84400CB757A /* UppPdfDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473DD12ADB9820082F485 /* UppPdfDraw.framework */; };
+		6599C7E012B2A84B00CB757A /* UppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473E512ADB9910082F485 /* UppCore.framework */; };
+		6599C84012B2AE7300CB757A /* UppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473E512ADB9910082F485 /* UppCore.framework */; };
+		6599C84112B2AE7900CB757A /* UppDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473BB12ADB5750082F485 /* UppDraw.framework */; };
+		6599C84212B2AE7F00CB757A /* UppPdfDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473DD12ADB9820082F485 /* UppPdfDraw.framework */; };
+		6599C84312B2AE8500CB757A /* libUpppng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473C512ADB9690082F485 /* libUpppng.dylib */; };
+		6599C84612B2AF0300CB757A /* UppRichText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B473D212ADB9750082F485 /* UppRichText.framework */; };
+		65A84E2412A68C1F00248C65 /* MacApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65A84E2312A68C1F00248C65 /* MacApp.mm */; };
+		991C6C50129078DE007EE1DB /* MacProc.mm in Sources */ = {isa = PBXBuildFile; fileRef = 991C6C4C129078DE007EE1DB /* MacProc.mm */; };
+		991C6C52129078DE007EE1DB /* TopWinMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 991C6C4E129078DE007EE1DB /* TopWinMac.mm */; };
+		991C6CBC12917CB0007EE1DB /* CtrlCore.icpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C659B128AED2500D8267C /* CtrlCore.icpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6599C7D112B2A7E300CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650A573A129FE3630034F654 /* RichText.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 653826F212998D7300A50F8C;
+			remoteInfo = UppRichText;
+		};
+		6599C7D312B2A7E300CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B1B128862F400D8267C;
+			remoteInfo = UppCore;
+		};
+		6599C7D512B2A7E300CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B841288725B00D8267C;
+			remoteInfo = UppDraw;
+		};
+		6599C7D712B2A7E300CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C6533128AECC700D8267C /* PdfDraw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 653827CA1299D06800A50F8C;
+			remoteInfo = UppPdfDraw;
+		};
+		6599C7D912B2A7E300CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650A5740129FE37C0034F654 /* png.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C60521288B64400D8267C;
+			remoteInfo = dynamic;
+		};
+		6599C7E512B2A8A500CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650A573A129FE3630034F654 /* RichText.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 653826F212998D7300A50F8C;
+			remoteInfo = UppRichText;
+		};
+		6599C7E712B2A8A500CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B1B128862F400D8267C;
+			remoteInfo = UppCore;
+		};
+		6599C7E912B2A8A500CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B841288725B00D8267C;
+			remoteInfo = UppDraw;
+		};
+		6599C7EB12B2A8A500CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C6533128AECC700D8267C /* PdfDraw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 653827CA1299D06800A50F8C;
+			remoteInfo = UppPdfDraw;
+		};
+		6599C7ED12B2A8A500CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650A5740129FE37C0034F654 /* png.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C60521288B64400D8267C;
+			remoteInfo = dynamic;
+		};
+		65A84DD012A6870100248C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5AD5128855EA00D8267C;
+			remoteInfo = UppCtrlCore;
+		};
+		65B473BA12ADB5750082F485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B851288725B00D8267C;
+			remoteInfo = UppDraw;
+		};
+		65B473C412ADB9690082F485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650A5740129FE37C0034F654 /* png.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C60531288B64400D8267C;
+			remoteInfo = dynamic;
+		};
+		65B473C612ADB9690082F485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650A5740129FE37C0034F654 /* png.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65528CDB127EF06A00AD8B49;
+			remoteInfo = static;
+		};
+		65B473D112ADB9750082F485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650A573A129FE3630034F654 /* RichText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 653826F312998D7300A50F8C;
+			remoteInfo = UppRichText;
+		};
+		65B473DC12ADB9820082F485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C6533128AECC700D8267C /* PdfDraw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 653827CB1299D06800A50F8C;
+			remoteInfo = UppPdfDraw;
+		};
+		65B473E412ADB9910082F485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B1C128862F400D8267C;
+			remoteInfo = UppCore;
+		};
+		9986179A12C8F1A6008F10D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9986179312C8F1A6008F10D9 /* plugin:z.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65528CDB127EF06A00AD8B49 /* libUppCore_static.a */;
+			remoteInfo = UppCore_static;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650A573A129FE3630034F654 /* RichText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RichText.xcodeproj; sourceTree = "<group>"; };
+		650A5740129FE37C0034F654 /* png.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = png.xcodeproj; sourceTree = "<group>"; };
+		650A597C12A03AF20034F654 /* MacWnd.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MacWnd.mm; sourceTree = "<group>"; };
+		650A5AE412A067AD0034F654 /* UNSApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNSApplicationDelegate.h; sourceTree = "<group>"; };
+		650A5AE512A067AD0034F654 /* UNSApplicationDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UNSApplicationDelegate.mm; sourceTree = "<group>"; };
+		650A5AF412A069280034F654 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		650A5D7D12A1CBDF0034F654 /* UNSWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = UNSWindow.h; sourceTree = "<group>"; };
+		650A5D7E12A1CBDF0034F654 /* UNSWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UNSWindow.mm; sourceTree = "<group>"; };
+		650A5D8112A1D0E20034F654 /* UNSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNSView.h; sourceTree = "<group>"; };
+		650A5D8212A1D0E20034F654 /* UNSView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UNSView.mm; sourceTree = "<group>"; };
+		650A5D8512A1D1500034F654 /* UNSApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNSApplication.h; sourceTree = "<group>"; };
+		650A5D8612A1D1500034F654 /* UNSApplication.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UNSApplication.mm; sourceTree = "<group>"; };
+		6520236A12A661D9008F3643 /* CtrlCore_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CtrlCore_Prefix.h; path = ../../uppsrc/CtrlCore/CtrlCore_Prefix.h; sourceTree = "<group>"; };
+		6520236C12A6638E008F3643 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6520237412A67309008F3643 /* CtrlCoreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CtrlCoreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6520237612A67309008F3643 /* CtrlCoreTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CtrlCoreTest-Info.plist"; sourceTree = "<group>"; };
+		653AFCF412C2B38700661712 /* MacWnd1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacWnd1.h; sourceTree = "<group>"; };
+		654C5C331288868500D8267C /* Draw.xcodeproj */ = {isa = PBXFileReference; explicitFileType = "wrapper.pb-project"; path = Draw.xcodeproj; sourceTree = "<group>"; };
+		654C5C6F12888AF400D8267C /* UppCtrlCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UppCtrlCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654C5C8A12888C8400D8267C /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Core.xcodeproj; sourceTree = "<group>"; };
+		654C5C951288901000D8267C /* libfontconfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfontconfig.dylib; path = /usr/X11/lib/libfontconfig.dylib; sourceTree = "<absolute>"; };
+		654C5C961288901000D8267C /* libfreetype.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.dylib; path = /usr/X11/lib/libfreetype.dylib; sourceTree = "<absolute>"; };
+		654C6533128AECC700D8267C /* PdfDraw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PdfDraw.xcodeproj; sourceTree = "<group>"; };
+		654C6539128AECEE00D8267C /* CtrlCore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = CtrlCore.h; sourceTree = "<group>"; };
+		654C653A128AECEE00D8267C /* DrawWin32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawWin32.h; sourceTree = "<group>"; };
+		654C653B128AECEE00D8267C /* DrawX11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawX11.h; sourceTree = "<group>"; };
+		654C653C128AECEE00D8267C /* lay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lay.h; sourceTree = "<group>"; };
+		654C653D128AECEE00D8267C /* llay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llay.h; sourceTree = "<group>"; };
+		654C653E128AECEE00D8267C /* MKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKeys.h; sourceTree = "<group>"; };
+		654C653F128AECEE00D8267C /* SystemDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemDraw.h; sourceTree = "<group>"; };
+		654C6540128AECEE00D8267C /* TopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopWindow.h; sourceTree = "<group>"; };
+		654C6549128AED0D00D8267C /* BackDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BackDraw.cpp; sourceTree = "<group>"; };
+		654C654A128AED0D00D8267C /* Ctrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ctrl.mm; sourceTree = "<group>"; };
+		654C654B128AED0D00D8267C /* CtrlChild.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CtrlChild.mm; sourceTree = "<group>"; };
+		654C654C128AED0D00D8267C /* CtrlClip.cpp */ = {isa = PBXFileReference; comments = "not much mixed code"; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CtrlClip.cpp; sourceTree = "<group>"; };
+		654C654D128AED0D00D8267C /* CtrlDraw.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CtrlDraw.mm; sourceTree = "<group>"; };
+		654C654E128AED0D00D8267C /* CtrlKbd.mm */ = {isa = PBXFileReference; comments = "not much mixed code"; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CtrlKbd.mm; sourceTree = "<group>"; };
+		654C654F128AED0D00D8267C /* CtrlMouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CtrlMouse.cpp; sourceTree = "<group>"; };
+		654C6550128AED0D00D8267C /* CtrlMt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CtrlMt.mm; sourceTree = "<group>"; };
+		654C6551128AED0D00D8267C /* CtrlPos.cpp */ = {isa = PBXFileReference; comments = "not much mixed code"; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CtrlPos.cpp; sourceTree = "<group>"; };
+		654C6552128AED0D00D8267C /* CtrlTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CtrlTimer.cpp; sourceTree = "<group>"; };
+		654C6553128AED0D00D8267C /* DHCtrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DHCtrl.cpp; sourceTree = "<group>"; };
+		654C6554128AED0D00D8267C /* DrawOpWin32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawOpWin32.cpp; sourceTree = "<group>"; };
+		654C6555128AED0D00D8267C /* DrawOpX11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawOpX11.cpp; sourceTree = "<group>"; };
+		654C6556128AED0D00D8267C /* DrawTextWin32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawTextWin32.cpp; sourceTree = "<group>"; };
+		654C6557128AED0D00D8267C /* DrawTextX11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawTextX11.cpp; sourceTree = "<group>"; };
+		654C6558128AED0D00D8267C /* DrawUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawUtil.cpp; sourceTree = "<group>"; };
+		654C6559128AED0D00D8267C /* DrawWin32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawWin32.cpp; sourceTree = "<group>"; };
+		654C655A128AED0D00D8267C /* DrawX11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawX11.cpp; sourceTree = "<group>"; };
+		654C655B128AED0D00D8267C /* EncodeRTF.cpp */ = {isa = PBXFileReference; comments = "mix Win32 fonts"; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EncodeRTF.cpp; sourceTree = "<group>"; };
+		654C655C128AED0D00D8267C /* Frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Frame.cpp; sourceTree = "<group>"; };
+		654C655D128AED0D00D8267C /* ImageWin32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageWin32.cpp; sourceTree = "<group>"; };
+		654C655E128AED0D00D8267C /* ImageX11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageX11.cpp; sourceTree = "<group>"; };
+		654C655F128AED0D00D8267C /* LocalLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalLoop.cpp; sourceTree = "<group>"; };
+		654C6560128AED0D00D8267C /* MetaFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MetaFile.cpp; sourceTree = "<group>"; };
+		654C6561128AED0D00D8267C /* ParseRTF.cpp */ = {isa = PBXFileReference; comments = "mix Win32 fomts..?"; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParseRTF.cpp; sourceTree = "<group>"; };
+		654C6562128AED0D00D8267C /* SystemDraw.cpp */ = {isa = PBXFileReference; comments = "mixed Win32"; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SystemDraw.cpp; sourceTree = "<group>"; };
+		654C6563128AED0D00D8267C /* TopWin32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopWin32.cpp; sourceTree = "<group>"; };
+		654C6564128AED0D00D8267C /* TopWindow.mm */ = {isa = PBXFileReference; comments = "mixed a lot!"; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TopWindow.mm; sourceTree = "<group>"; };
+		654C6565128AED0D00D8267C /* TopWinX11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopWinX11.cpp; sourceTree = "<group>"; };
+		654C6566128AED0D00D8267C /* Win32Clip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Win32Clip.cpp; sourceTree = "<group>"; };
+		654C6567128AED0D00D8267C /* Win32DnD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Win32DnD.cpp; sourceTree = "<group>"; };
+		654C6568128AED0D00D8267C /* Win32Proc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Win32Proc.cpp; sourceTree = "<group>"; };
+		654C6569128AED0D00D8267C /* Win32Wnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Win32Wnd.cpp; sourceTree = "<group>"; };
+		654C656A128AED0D00D8267C /* X11App.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = X11App.cpp; sourceTree = "<group>"; };
+		654C656B128AED0D00D8267C /* X11Clip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = X11Clip.cpp; sourceTree = "<group>"; };
+		654C656C128AED0D00D8267C /* X11DHCtrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = X11DHCtrl.cpp; sourceTree = "<group>"; };
+		654C656D128AED0D00D8267C /* X11DnD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = X11DnD.cpp; sourceTree = "<group>"; };
+		654C656E128AED0D00D8267C /* X11ImgClip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = X11ImgClip.cpp; sourceTree = "<group>"; };
+		654C656F128AED0D00D8267C /* X11Proc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = X11Proc.cpp; sourceTree = "<group>"; };
+		654C6570128AED0D00D8267C /* X11Wnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = X11Wnd.cpp; sourceTree = "<group>"; };
+		654C6571128AED0D00D8267C /* Xmlize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Xmlize.cpp; sourceTree = "<group>"; };
+		654C659B128AED2500D8267C /* CtrlCore.icpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = CtrlCore.icpp; sourceTree = "<group>"; };
+		654C844F128ECE8700D8267C /* DrawMac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = DrawMac.h; sourceTree = "<group>"; };
+		654C8450128ECE8700D8267C /* DrawMac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DrawMac.mm; sourceTree = "<group>"; };
+		654C8454128ECF1900D8267C /* DrawOpMac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DrawOpMac.mm; sourceTree = "<group>"; };
+		654C8462128ED58600D8267C /* DrawTextMac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DrawTextMac.mm; sourceTree = "<group>"; };
+		654C8464128ED97B00D8267C /* ImageMac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageMac.mm; sourceTree = "<group>"; };
+		654C8481128EDE3100D8267C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		658629CF129FE15700D8A290 /* MacClip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MacClip.mm; sourceTree = "<group>"; };
+		658629D0129FE15700D8A290 /* MacDHCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MacDHCtrl.mm; sourceTree = "<group>"; };
+		658629D1129FE15700D8A290 /* MacDnD.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MacDnD.mm; sourceTree = "<group>"; };
+		65A84E2312A68C1F00248C65 /* MacApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MacApp.mm; sourceTree = "<group>"; };
+		991C6B7712903A7F007EE1DB /* Win32Keys.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Win32Keys.i; sourceTree = "<group>"; };
+		991C6B7812903A7F007EE1DB /* Win32Msg.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Win32Msg.i; sourceTree = "<group>"; };
+		991C6B7912903A7F007EE1DB /* X11Event.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = X11Event.i; sourceTree = "<group>"; };
+		991C6B7A12903A7F007EE1DB /* X11Keys.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = X11Keys.i; sourceTree = "<group>"; };
+		991C6BCE12904A34007EE1DB /* MacKeys.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = MacKeys.i; sourceTree = "<group>"; };
+		991C6C4C129078DE007EE1DB /* MacProc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MacProc.mm; sourceTree = "<group>"; };
+		991C6C4E129078DE007EE1DB /* TopWinMac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TopWinMac.mm; sourceTree = "<group>"; };
+		9986179312C8F1A6008F10D9 /* plugin:z.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "plugin:z.xcodeproj"; sourceTree = "<group>"; };
+		9986179F12C8F1F5008F10D9 /* UPP_CONFIGURATION.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UPP_CONFIGURATION.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6520237212A67309008F3643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6520238A12A6733A008F3643 /* UppCtrlCore.framework in Frameworks */,
+				6599C7DD12B2A83A00CB757A /* libUpppng.dylib in Frameworks */,
+				6599C7DE12B2A84000CB757A /* UppRichText.framework in Frameworks */,
+				6599C7DF12B2A84400CB757A /* UppPdfDraw.framework in Frameworks */,
+				6599C7E012B2A84B00CB757A /* UppCore.framework in Frameworks */,
+				653AFDEB12C2F33C00661712 /* UppDraw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654C5AD4128855EA00D8267C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C5C971288901000D8267C /* libfontconfig.dylib in Frameworks */,
+				654C5C981288901000D8267C /* libfreetype.dylib in Frameworks */,
+				654C8482128EDE3100D8267C /* Cocoa.framework in Frameworks */,
+				6599C84012B2AE7300CB757A /* UppCore.framework in Frameworks */,
+				6599C84112B2AE7900CB757A /* UppDraw.framework in Frameworks */,
+				6599C84212B2AE7F00CB757A /* UppPdfDraw.framework in Frameworks */,
+				6599C84312B2AE8500CB757A /* libUpppng.dylib in Frameworks */,
+				6599C84612B2AF0300CB757A /* UppRichText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FoxCore */ = {
+			isa = PBXGroup;
+			children = (
+				9986179312C8F1A6008F10D9 /* plugin:z.xcodeproj */,
+				650A5740129FE37C0034F654 /* png.xcodeproj */,
+				650A573A129FE3630034F654 /* RichText.xcodeproj */,
+				654C6533128AECC700D8267C /* PdfDraw.xcodeproj */,
+				654C5C8A12888C8400D8267C /* Core.xcodeproj */,
+				654C5C331288868500D8267C /* Draw.xcodeproj */,
+				6520236812A66180008F3643 /* Other sources */,
+				65B4738E12AC61290082F485 /* CtrlCore */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				6520237612A67309008F3643 /* CtrlCoreTest-Info.plist */,
+			);
+			name = FoxCore;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C951288901000D8267C /* libfontconfig.dylib */,
+				654C5C961288901000D8267C /* libfreetype.dylib */,
+				654C8481128EDE3100D8267C /* Cocoa.framework */,
+				650A5AF412A069280034F654 /* AppKit.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				991C6B7712903A7F007EE1DB /* Win32Keys.i */,
+				991C6B7A12903A7F007EE1DB /* X11Keys.i */,
+				991C6B7812903A7F007EE1DB /* Win32Msg.i */,
+				991C6B7912903A7F007EE1DB /* X11Event.i */,
+				991C6BCE12904A34007EE1DB /* MacKeys.i */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				650A5AE312A067830034F654 /* objc */,
+				654C8453128ECEAB00D8267C /* mac */,
+				654C8442128EC6C000D8267C /* pure */,
+				654C843F128EC4BE00D8267C /* X11 */,
+				654C843E128EC45400D8267C /* Win32 */,
+			);
+			name = Source;
+			path = ../../xcode;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C6F12888AF400D8267C /* UppCtrlCore.framework */,
+				6520237412A67309008F3643 /* CtrlCoreTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650A5AE312A067830034F654 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				650A5D8512A1D1500034F654 /* UNSApplication.h */,
+				650A5D8612A1D1500034F654 /* UNSApplication.mm */,
+				650A5D8112A1D0E20034F654 /* UNSView.h */,
+				650A5D8212A1D0E20034F654 /* UNSView.mm */,
+				650A5D7D12A1CBDF0034F654 /* UNSWindow.h */,
+				650A5D7E12A1CBDF0034F654 /* UNSWindow.mm */,
+				650A5AE412A067AD0034F654 /* UNSApplicationDelegate.h */,
+				650A5AE512A067AD0034F654 /* UNSApplicationDelegate.mm */,
+			);
+			includeInIndex = 1;
+			name = objc;
+			path = ../../uppsrc/CtrlCore;
+			sourceTree = SOURCE_ROOT;
+		};
+		6520236812A66180008F3643 /* Other sources */ = {
+			isa = PBXGroup;
+			children = (
+				9986179F12C8F1F5008F10D9 /* UPP_CONFIGURATION.xcconfig */,
+				6520236A12A661D9008F3643 /* CtrlCore_Prefix.h */,
+				6520236C12A6638E008F3643 /* main.cpp */,
+			);
+			name = "Other sources";
+			path = ../../uppsrc/CtrlCore;
+			sourceTree = "<group>";
+		};
+		654C843E128EC45400D8267C /* Win32 */ = {
+			isa = PBXGroup;
+			children = (
+				654C6554128AED0D00D8267C /* DrawOpWin32.cpp */,
+				654C6559128AED0D00D8267C /* DrawWin32.cpp */,
+				654C6556128AED0D00D8267C /* DrawTextWin32.cpp */,
+				654C655D128AED0D00D8267C /* ImageWin32.cpp */,
+				654C6563128AED0D00D8267C /* TopWin32.cpp */,
+				654C6569128AED0D00D8267C /* Win32Wnd.cpp */,
+				654C6568128AED0D00D8267C /* Win32Proc.cpp */,
+				654C6566128AED0D00D8267C /* Win32Clip.cpp */,
+				654C6567128AED0D00D8267C /* Win32DnD.cpp */,
+				654C6553128AED0D00D8267C /* DHCtrl.cpp */,
+				654C6560128AED0D00D8267C /* MetaFile.cpp */,
+			);
+			name = Win32;
+			path = ../uppsrc/CtrlCore;
+			sourceTree = "<group>";
+		};
+		654C843F128EC4BE00D8267C /* X11 */ = {
+			isa = PBXGroup;
+			children = (
+				654C6555128AED0D00D8267C /* DrawOpX11.cpp */,
+				654C655A128AED0D00D8267C /* DrawX11.cpp */,
+				654C6557128AED0D00D8267C /* DrawTextX11.cpp */,
+				654C655E128AED0D00D8267C /* ImageX11.cpp */,
+				654C6565128AED0D00D8267C /* TopWinX11.cpp */,
+				654C6570128AED0D00D8267C /* X11Wnd.cpp */,
+				654C656A128AED0D00D8267C /* X11App.cpp */,
+				654C656F128AED0D00D8267C /* X11Proc.cpp */,
+				654C656B128AED0D00D8267C /* X11Clip.cpp */,
+				654C656D128AED0D00D8267C /* X11DnD.cpp */,
+				654C656E128AED0D00D8267C /* X11ImgClip.cpp */,
+				654C656C128AED0D00D8267C /* X11DHCtrl.cpp */,
+			);
+			name = X11;
+			path = ../uppsrc/CtrlCore;
+			sourceTree = "<group>";
+		};
+		654C8442128EC6C000D8267C /* pure */ = {
+			isa = PBXGroup;
+			children = (
+				654C659B128AED2500D8267C /* CtrlCore.icpp */,
+				654C6549128AED0D00D8267C /* BackDraw.cpp */,
+				654C654B128AED0D00D8267C /* CtrlChild.mm */,
+				654C654F128AED0D00D8267C /* CtrlMouse.cpp */,
+				654C6552128AED0D00D8267C /* CtrlTimer.cpp */,
+				654C6571128AED0D00D8267C /* Xmlize.cpp */,
+				654C655B128AED0D00D8267C /* EncodeRTF.cpp */,
+				654C655C128AED0D00D8267C /* Frame.cpp */,
+				654C655F128AED0D00D8267C /* LocalLoop.cpp */,
+				654C6561128AED0D00D8267C /* ParseRTF.cpp */,
+			);
+			name = pure;
+			path = ../uppsrc/CtrlCore;
+			sourceTree = "<group>";
+		};
+		654C8453128ECEAB00D8267C /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				65A84E2312A68C1F00248C65 /* MacApp.mm */,
+				650A597C12A03AF20034F654 /* MacWnd.mm */,
+				991C6C4E129078DE007EE1DB /* TopWinMac.mm */,
+				654C6564128AED0D00D8267C /* TopWindow.mm */,
+				654C8450128ECE8700D8267C /* DrawMac.mm */,
+				654C8454128ECF1900D8267C /* DrawOpMac.mm */,
+				654C8464128ED97B00D8267C /* ImageMac.mm */,
+				658629CF129FE15700D8A290 /* MacClip.mm */,
+				658629D0129FE15700D8A290 /* MacDHCtrl.mm */,
+				658629D1129FE15700D8A290 /* MacDnD.mm */,
+				654C8462128ED58600D8267C /* DrawTextMac.mm */,
+				991C6C4C129078DE007EE1DB /* MacProc.mm */,
+				654C6562128AED0D00D8267C /* SystemDraw.cpp */,
+				654C654A128AED0D00D8267C /* Ctrl.mm */,
+				654C654D128AED0D00D8267C /* CtrlDraw.mm */,
+				654C6550128AED0D00D8267C /* CtrlMt.mm */,
+				654C6558128AED0D00D8267C /* DrawUtil.cpp */,
+				654C654E128AED0D00D8267C /* CtrlKbd.mm */,
+				654C654C128AED0D00D8267C /* CtrlClip.cpp */,
+				654C6551128AED0D00D8267C /* CtrlPos.cpp */,
+			);
+			name = mac;
+			path = ../uppsrc/CtrlCore;
+			sourceTree = "<group>";
+		};
+		65528A2A127E845800AD8B49 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				654C6539128AECEE00D8267C /* CtrlCore.h */,
+				654C653F128AECEE00D8267C /* SystemDraw.h */,
+				654C653A128AECEE00D8267C /* DrawWin32.h */,
+				654C653B128AECEE00D8267C /* DrawX11.h */,
+				654C844F128ECE8700D8267C /* DrawMac.h */,
+				654C653C128AECEE00D8267C /* lay.h */,
+				654C653D128AECEE00D8267C /* llay.h */,
+				654C653E128AECEE00D8267C /* MKeys.h */,
+				654C6540128AECEE00D8267C /* TopWindow.h */,
+				653AFCF412C2B38700661712 /* MacWnd1.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		65B4738E12AC61290082F485 /* CtrlCore */ = {
+			isa = PBXGroup;
+			children = (
+				65528A2A127E845800AD8B49 /* Headers */,
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+			);
+			name = CtrlCore;
+			path = ../../uppsrc/CtrlCore;
+			sourceTree = "<group>";
+		};
+		65B473B712ADB5750082F485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B473BB12ADB5750082F485 /* UppDraw.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B473C012ADB9690082F485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B473C512ADB9690082F485 /* libUpppng.dylib */,
+				65B473C712ADB9690082F485 /* libUpppng_static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B473CE12ADB9750082F485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B473D212ADB9750082F485 /* UppRichText.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B473D912ADB9820082F485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B473DD12ADB9820082F485 /* UppPdfDraw.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B473E112ADB9910082F485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B473E512ADB9910082F485 /* UppCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9986179412C8F1A6008F10D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9986179B12C8F1A6008F10D9 /* libUppCore_static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		654C5AD1128855EA00D8267C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C6541128AECEE00D8267C /* CtrlCore.h in Headers */,
+				654C6542128AECEE00D8267C /* DrawWin32.h in Headers */,
+				654C6543128AECEE00D8267C /* DrawX11.h in Headers */,
+				654C6544128AECEE00D8267C /* lay.h in Headers */,
+				654C6545128AECEE00D8267C /* llay.h in Headers */,
+				654C6546128AECEE00D8267C /* MKeys.h in Headers */,
+				654C6547128AECEE00D8267C /* SystemDraw.h in Headers */,
+				654C6548128AECEE00D8267C /* TopWindow.h in Headers */,
+				654C8451128ECE8700D8267C /* DrawMac.h in Headers */,
+				650A5AFE12A069BA0034F654 /* UNSApplicationDelegate.h in Headers */,
+				650A5D7F12A1CBDF0034F654 /* UNSWindow.h in Headers */,
+				650A5D8312A1D0E20034F654 /* UNSView.h in Headers */,
+				650A5D8712A1D1500034F654 /* UNSApplication.h in Headers */,
+				6520236B12A661D9008F3643 /* CtrlCore_Prefix.h in Headers */,
+				653AFCF512C2B38700661712 /* MacWnd1.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6520237312A67309008F3643 /* CtrlCoreTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6520237F12A6730A008F3643 /* Build configuration list for PBXNativeTarget "CtrlCoreTest" */;
+			buildPhases = (
+				6520237012A67309008F3643 /* Resources */,
+				6520237112A67309008F3643 /* Sources */,
+				6520237212A67309008F3643 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A84DD112A6870100248C65 /* PBXTargetDependency */,
+				6599C7D212B2A7E300CB757A /* PBXTargetDependency */,
+				6599C7D412B2A7E300CB757A /* PBXTargetDependency */,
+				6599C7D612B2A7E300CB757A /* PBXTargetDependency */,
+				6599C7D812B2A7E300CB757A /* PBXTargetDependency */,
+				6599C7DA12B2A7E300CB757A /* PBXTargetDependency */,
+			);
+			name = CtrlCoreTest;
+			productName = CtrlCoreTest;
+			productReference = 6520237412A67309008F3643 /* CtrlCoreTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		654C5AD5128855EA00D8267C /* UppCtrlCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654C5ADA128855EB00D8267C /* Build configuration list for PBXNativeTarget "UppCtrlCore" */;
+			buildPhases = (
+				654C5AD1128855EA00D8267C /* Headers */,
+				654C5AD2128855EA00D8267C /* Resources */,
+				654C5AD3128855EA00D8267C /* Sources */,
+				654C5AD4128855EA00D8267C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6599C7E612B2A8A500CB757A /* PBXTargetDependency */,
+				6599C7E812B2A8A500CB757A /* PBXTargetDependency */,
+				6599C7EA12B2A8A500CB757A /* PBXTargetDependency */,
+				6599C7EC12B2A8A500CB757A /* PBXTargetDependency */,
+				6599C7EE12B2A8A500CB757A /* PBXTargetDependency */,
+			);
+			name = UppCtrlCore;
+			productName = UppPainter;
+			productReference = 654C5C6F12888AF400D8267C /* UppCtrlCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = www.ultimatepp.org;
+			};
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "CtrlCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* FoxCore */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 65B473E112ADB9910082F485 /* Products */;
+					ProjectRef = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+				},
+				{
+					ProductGroup = 65B473B712ADB5750082F485 /* Products */;
+					ProjectRef = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+				},
+				{
+					ProductGroup = 65B473D912ADB9820082F485 /* Products */;
+					ProjectRef = 654C6533128AECC700D8267C /* PdfDraw.xcodeproj */;
+				},
+				{
+					ProductGroup = 9986179412C8F1A6008F10D9 /* Products */;
+					ProjectRef = 9986179312C8F1A6008F10D9 /* plugin:z.xcodeproj */;
+				},
+				{
+					ProductGroup = 65B473C012ADB9690082F485 /* Products */;
+					ProjectRef = 650A5740129FE37C0034F654 /* png.xcodeproj */;
+				},
+				{
+					ProductGroup = 65B473CE12ADB9750082F485 /* Products */;
+					ProjectRef = 650A573A129FE3630034F654 /* RichText.xcodeproj */;
+				},
+			);
+			projectRoot = ../../uppsrc;
+			targets = (
+				654C5AD5128855EA00D8267C /* UppCtrlCore */,
+				6520237312A67309008F3643 /* CtrlCoreTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		65B473BB12ADB5750082F485 /* UppDraw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppDraw.framework;
+			remoteRef = 65B473BA12ADB5750082F485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65B473C512ADB9690082F485 /* libUpppng.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libUpppng.dylib;
+			remoteRef = 65B473C412ADB9690082F485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65B473C712ADB9690082F485 /* libUpppng_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUpppng_static.a;
+			remoteRef = 65B473C612ADB9690082F485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65B473D212ADB9750082F485 /* UppRichText.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppRichText.framework;
+			remoteRef = 65B473D112ADB9750082F485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65B473DD12ADB9820082F485 /* UppPdfDraw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppPdfDraw.framework;
+			remoteRef = 65B473DC12ADB9820082F485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65B473E512ADB9910082F485 /* UppCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppCore.framework;
+			remoteRef = 65B473E412ADB9910082F485 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9986179B12C8F1A6008F10D9 /* libUppCore_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUppCore_static.a;
+			remoteRef = 9986179A12C8F1A6008F10D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6520237012A67309008F3643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654C5AD2128855EA00D8267C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6520237112A67309008F3643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652023C312A67D51008F3643 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654C5AD3128855EA00D8267C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C8452128ECE8700D8267C /* DrawMac.mm in Sources */,
+				654C8455128ECF1900D8267C /* DrawOpMac.mm in Sources */,
+				654C8463128ED58600D8267C /* DrawTextMac.mm in Sources */,
+				654C8465128ED97B00D8267C /* ImageMac.mm in Sources */,
+				991C6C50129078DE007EE1DB /* MacProc.mm in Sources */,
+				654C6582128AED0D00D8267C /* DrawWin32.cpp in Sources */,
+				654C657D128AED0D00D8267C /* DrawOpWin32.cpp in Sources */,
+				654C657F128AED0D00D8267C /* DrawTextWin32.cpp in Sources */,
+				654C6586128AED0D00D8267C /* ImageWin32.cpp in Sources */,
+				991C6C52129078DE007EE1DB /* TopWinMac.mm in Sources */,
+				658629D4129FE15700D8A290 /* MacClip.mm in Sources */,
+				658629D5129FE15700D8A290 /* MacDHCtrl.mm in Sources */,
+				658629D6129FE15700D8A290 /* MacDnD.mm in Sources */,
+				654C6589128AED0D00D8267C /* MetaFile.cpp in Sources */,
+				654C6583128AED0D00D8267C /* DrawX11.cpp in Sources */,
+				654C657E128AED0D00D8267C /* DrawOpX11.cpp in Sources */,
+				654C6580128AED0D00D8267C /* DrawTextX11.cpp in Sources */,
+				654C6587128AED0D00D8267C /* ImageX11.cpp in Sources */,
+				654C6572128AED0D00D8267C /* BackDraw.cpp in Sources */,
+				654C658B128AED0D00D8267C /* SystemDraw.cpp in Sources */,
+				654C6581128AED0D00D8267C /* DrawUtil.cpp in Sources */,
+				654C6585128AED0D00D8267C /* Frame.cpp in Sources */,
+				654C6579128AED0D00D8267C /* CtrlMt.mm in Sources */,
+				654C6573128AED0D00D8267C /* Ctrl.mm in Sources */,
+				654C6574128AED0D00D8267C /* CtrlChild.mm in Sources */,
+				654C657A128AED0D00D8267C /* CtrlPos.cpp in Sources */,
+				654C6576128AED0D00D8267C /* CtrlDraw.mm in Sources */,
+				654C6578128AED0D00D8267C /* CtrlMouse.cpp in Sources */,
+				654C6577128AED0D00D8267C /* CtrlKbd.mm in Sources */,
+				654C657B128AED0D00D8267C /* CtrlTimer.cpp in Sources */,
+				654C6575128AED0D00D8267C /* CtrlClip.cpp in Sources */,
+				654C6588128AED0D00D8267C /* LocalLoop.cpp in Sources */,
+				654C659A128AED0D00D8267C /* Xmlize.cpp in Sources */,
+				654C658D128AED0D00D8267C /* TopWindow.mm in Sources */,
+				654C6592128AED0D00D8267C /* Win32Wnd.cpp in Sources */,
+				654C658F128AED0D00D8267C /* Win32Clip.cpp in Sources */,
+				654C6590128AED0D00D8267C /* Win32DnD.cpp in Sources */,
+				654C6591128AED0D00D8267C /* Win32Proc.cpp in Sources */,
+				654C658C128AED0D00D8267C /* TopWin32.cpp in Sources */,
+				654C657C128AED0D00D8267C /* DHCtrl.cpp in Sources */,
+				654C6599128AED0D00D8267C /* X11Wnd.cpp in Sources */,
+				654C6598128AED0D00D8267C /* X11Proc.cpp in Sources */,
+				654C658E128AED0D00D8267C /* TopWinX11.cpp in Sources */,
+				654C6594128AED0D00D8267C /* X11Clip.cpp in Sources */,
+				654C6596128AED0D00D8267C /* X11DnD.cpp in Sources */,
+				654C6597128AED0D00D8267C /* X11ImgClip.cpp in Sources */,
+				654C6595128AED0D00D8267C /* X11DHCtrl.cpp in Sources */,
+				654C6593128AED0D00D8267C /* X11App.cpp in Sources */,
+				654C6584128AED0D00D8267C /* EncodeRTF.cpp in Sources */,
+				654C658A128AED0D00D8267C /* ParseRTF.cpp in Sources */,
+				991C6CBC12917CB0007EE1DB /* CtrlCore.icpp in Sources */,
+				650A597312A035340034F654 /* CtrlCore.icpp in Sources */,
+				650A597D12A03AF20034F654 /* MacWnd.mm in Sources */,
+				650A5AEB12A067AD0034F654 /* UNSApplicationDelegate.mm in Sources */,
+				650A5D8012A1CBDF0034F654 /* UNSWindow.mm in Sources */,
+				650A5D8412A1D0E20034F654 /* UNSView.mm in Sources */,
+				650A5D8812A1D1500034F654 /* UNSApplication.mm in Sources */,
+				65A84E2412A68C1F00248C65 /* MacApp.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6599C7D212B2A7E300CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppRichText;
+			targetProxy = 6599C7D112B2A7E300CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7D412B2A7E300CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppCore;
+			targetProxy = 6599C7D312B2A7E300CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7D612B2A7E300CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppDraw;
+			targetProxy = 6599C7D512B2A7E300CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7D812B2A7E300CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppPdfDraw;
+			targetProxy = 6599C7D712B2A7E300CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7DA12B2A7E300CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dynamic;
+			targetProxy = 6599C7D912B2A7E300CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7E612B2A8A500CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppRichText;
+			targetProxy = 6599C7E512B2A8A500CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7E812B2A8A500CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppCore;
+			targetProxy = 6599C7E712B2A8A500CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7EA12B2A8A500CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppDraw;
+			targetProxy = 6599C7E912B2A8A500CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7EC12B2A8A500CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppPdfDraw;
+			targetProxy = 6599C7EB12B2A8A500CB757A /* PBXContainerItemProxy */;
+		};
+		6599C7EE12B2A8A500CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dynamic;
+			targetProxy = 6599C7ED12B2A8A500CB757A /* PBXContainerItemProxy */;
+		};
+		65A84DD112A6870100248C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654C5AD5128855EA00D8267C /* UppCtrlCore */;
+			targetProxy = 65A84DD012A6870100248C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB911F08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					"/usr/X11/include/**",
+				);
+				INSTALL_GROUP = staff;
+				INSTALL_PATH = /Library/Frameworks;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DflagGUI",
+					"-DflagCOCOA",
+					"-DflagDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "Upp$(PROJECT_NAME)";
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB912008733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					"/usr/X11/include/**",
+				);
+				INSTALL_GROUP = staff;
+				INSTALL_PATH = /Library/Frameworks;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DflagGUI",
+					"-DflagCOCOA",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "Upp$(PROJECT_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				SKIP_INSTALL = NO;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		6520237712A6730A008F3643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /CtrlCore/CtrlCore.h;
+				INFOPLIST_FILE = "CtrlCoreTest-Info.plist";
+				INSTALL_PATH = /Users/Shared/Applications;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CtrlCoreTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6520237812A6730A008F3643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(UPPSRC_DIR)";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(UPPSRC_DIR)/CtrlCore/CtrlCore.h";
+				INFOPLIST_FILE = "CtrlCoreTest-Info.plist";
+				INSTALL_PATH = /Users/Shared/Applications;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CtrlCoreTest;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		654C5AD8128855EB00D8267C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/X11/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DflagGUI",
+					"-DflagCOCOA",
+					"-DflagDEBUG",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "-shared";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Upp$(PROJECT_NAME)";
+			};
+			name = Debug;
+		};
+		654C5AD9128855EB00D8267C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/X11/lib,
+				);
+				OTHER_LDFLAGS = "-shared";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Upp$(PROJECT_NAME)";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "CtrlCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911F08733D790010E9CD /* Debug */,
+				1DEB912008733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6520237F12A6730A008F3643 /* Build configuration list for PBXNativeTarget "CtrlCoreTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6520237712A6730A008F3643 /* Debug */,
+				6520237812A6730A008F3643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654C5ADA128855EB00D8267C /* Build configuration list for PBXNativeTarget "UppCtrlCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654C5AD8128855EB00D8267C /* Debug */,
+				654C5AD9128855EB00D8267C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

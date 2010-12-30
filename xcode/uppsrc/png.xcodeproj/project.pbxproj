@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654C60731288BA3D00D8267C /* pnglib.c in Sources */ = {isa = PBXBuildFile; fileRef = 9926A06112848D070055D9D6 /* pnglib.c */; };
+		654C60741288BA3F00D8267C /* pngupp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9926A06312848D070055D9D6 /* pngupp.cpp */; };
+		654C607F1288BAEA00D8267C /* pngreg.icpp in Sources */ = {isa = PBXBuildFile; fileRef = 9926A06212848D070055D9D6 /* pngreg.icpp */; };
+		654C60851288BB3000D8267C /* libpng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C60841288BB3000D8267C /* libpng.dylib */; };
+		654C60981288BCEF00D8267C /* UppDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C60971288BCEF00D8267C /* UppDraw.framework */; };
+		654C609F1288BD6C00D8267C /* UppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654C609E1288BD6C00D8267C /* UppCore.framework */; };
+		9926A06412848D070055D9D6 /* pnglib.c in Sources */ = {isa = PBXBuildFile; fileRef = 9926A06112848D070055D9D6 /* pnglib.c */; };
+		9926A06512848D070055D9D6 /* pngupp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9926A06312848D070055D9D6 /* pngupp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FB6E4C12B30BAD001CD3C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FB6E4812B30BAD001CD3C8 /* Draw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B851288725B00D8267C /* UppDraw.framework */;
+			remoteInfo = UppDraw;
+		};
+		65FB6E4E12B30BC5001CD3C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FB6E4812B30BAD001CD3C8 /* Draw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B841288725B00D8267C /* UppDraw */;
+			remoteInfo = UppDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		654C60531288B64400D8267C /* libUpppng.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libUpppng.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		654C60841288BB3000D8267C /* libpng.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng.dylib; path = /usr/X11/lib/libpng.dylib; sourceTree = "<absolute>"; };
+		654C60971288BCEF00D8267C /* UppDraw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UppDraw.framework; path = /Library/Frameworks/UppDraw.framework; sourceTree = "<absolute>"; };
+		654C609E1288BD6C00D8267C /* UppCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UppCore.framework; path = /Library/Frameworks/UppCore.framework; sourceTree = "<absolute>"; };
+		65528CDB127EF06A00AD8B49 /* libUpppng_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUpppng_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FB6E4812B30BAD001CD3C8 /* Draw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Draw.xcodeproj; sourceTree = "<group>"; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9926A06012848CDF0055D9D6 /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		9926A06112848D070055D9D6 /* pnglib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pnglib.c; sourceTree = "<group>"; };
+		9926A06212848D070055D9D6 /* pngreg.icpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = pngreg.icpp; sourceTree = "<group>"; };
+		9926A06312848D070055D9D6 /* pngupp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pngupp.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654C60511288B64400D8267C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C60851288BB3000D8267C /* libpng.dylib in Frameworks */,
+				654C60981288BCEF00D8267C /* UppDraw.framework in Frameworks */,
+				654C609F1288BD6C00D8267C /* UppCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65528CD9127EF06A00AD8B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FoxCore */ = {
+			isa = PBXGroup;
+			children = (
+				65FB6E4812B30BAD001CD3C8 /* Draw.xcodeproj */,
+				65528A2A127E845800AD8B49 /* Headers */,
+				08FB77AFFE84173DC02AAC07 /* png */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = FoxCore;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				654C609E1288BD6C00D8267C /* UppCore.framework */,
+				654C60971288BCEF00D8267C /* UppDraw.framework */,
+				654C60841288BB3000D8267C /* libpng.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D576317048677EA00EA77CD /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* png */ = {
+			isa = PBXGroup;
+			children = (
+				9926A06112848D070055D9D6 /* pnglib.c */,
+				9926A06212848D070055D9D6 /* pngreg.icpp */,
+				9926A06312848D070055D9D6 /* pngupp.cpp */,
+			);
+			name = png;
+			path = ../../uppsrc/plugin/png;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65528CDB127EF06A00AD8B49 /* libUpppng_static.a */,
+				654C60531288B64400D8267C /* libUpppng.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65528A2A127E845800AD8B49 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9926A06012848CDF0055D9D6 /* png.h */,
+			);
+			name = Headers;
+			path = ../../uppsrc/plugin/png;
+			sourceTree = "<group>";
+		};
+		65FB6E4912B30BAD001CD3C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FB6E4D12B30BAD001CD3C8 /* UppDraw.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		654C604F1288B64400D8267C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		654C60521288B64400D8267C /* dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654C60561288B66300D8267C /* Build configuration list for PBXNativeTarget "dynamic" */;
+			buildPhases = (
+				654C604F1288B64400D8267C /* Headers */,
+				654C60501288B64400D8267C /* Sources */,
+				654C60511288B64400D8267C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FB6E4F12B30BC5001CD3C8 /* PBXTargetDependency */,
+			);
+			name = dynamic;
+			productName = dynamic;
+			productReference = 654C60531288B64400D8267C /* libUpppng.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		65528CDA127EF06A00AD8B49 /* static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65528CDE127EF08800AD8B49 /* Build configuration list for PBXNativeTarget "static" */;
+			buildPhases = (
+				65528CD8127EF06A00AD8B49 /* Sources */,
+				65528CD9127EF06A00AD8B49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = static;
+			productName = FoxCore_static;
+			productReference = 65528CDB127EF06A00AD8B49 /* libUpppng_static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = www.ultimatepp.org;
+			};
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "png" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* FoxCore */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 65FB6E4912B30BAD001CD3C8 /* Products */;
+					ProjectRef = 65FB6E4812B30BAD001CD3C8 /* Draw.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				654C60521288B64400D8267C /* dynamic */,
+				65528CDA127EF06A00AD8B49 /* static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		65FB6E4D12B30BAD001CD3C8 /* UppDraw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppDraw.framework;
+			remoteRef = 65FB6E4C12B30BAD001CD3C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654C60501288B64400D8267C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C60731288BA3D00D8267C /* pnglib.c in Sources */,
+				654C60741288BA3F00D8267C /* pngupp.cpp in Sources */,
+				654C607F1288BAEA00D8267C /* pngreg.icpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65528CD8127EF06A00AD8B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9926A06412848D070055D9D6 /* pnglib.c in Sources */,
+				9926A06512848D070055D9D6 /* pngupp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65FB6E4F12B30BC5001CD3C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppDraw;
+			targetProxy = 65FB6E4E12B30BC5001CD3C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB911F08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					/usr/X11/include,
+				);
+				INSTALL_PATH = /Library/Frameworks;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "";
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB912008733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					/usr/X11/include,
+				);
+				INSTALL_PATH = /Library/Frameworks;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PREBINDING = NO;
+				PRODUCT_NAME = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				SKIP_INSTALL = NO;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		654C60541288B64500D8267C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/X11/lib,
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "Upp$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+			};
+			name = Debug;
+		};
+		654C60551288B64500D8267C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = /;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/X11/lib,
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "Upp$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		65528CDC127EF06A00AD8B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "$(UPP_OUT)/$(PROJECT_NAME).dst";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					flagDEBUG,
+					DEBUG,
+					DEBUG_FULL,
+				);
+				HEADER_SEARCH_PATHS = (
+					"/usr/X11/include/**",
+					"$(UPPSRC_DIR)",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(UPPSRC_DIR)";
+				PRODUCT_NAME = "Upp$(PROJECT_NAME)_static";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(UPPSRC_DIR)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				SKIP_INSTALL = NO;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				UPPSRC_DIR = "$(HOME)/upp/uppsrc";
+				UPP_OUT = "$(HOME)/upp/out/Xcode";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		65528CDD127EF06A00AD8B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					"/usr/X11/include/**",
+					"$(UPPSRC_DIR)",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = staticlib;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-c",
+					"$(OTHER_CFLAGS)",
+				);
+				PREBINDING = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(UPPSRC_DIR)";
+				PRODUCT_NAME = "Upp$(PROJECT_NAME)_static";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(UPPSRC_DIR)";
+				UPPSRC_DIR = "$(HOME)/upp/uppsrc";
+				USER_HEADER_SEARCH_PATHS = "";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "png" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911F08733D790010E9CD /* Debug */,
+				1DEB912008733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654C60561288B66300D8267C /* Build configuration list for PBXNativeTarget "dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654C60541288B64500D8267C /* Debug */,
+				654C60551288B64500D8267C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65528CDE127EF08800AD8B49 /* Build configuration list for PBXNativeTarget "static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65528CDC127EF06A00AD8B49 /* Debug */,
+				65528CDD127EF06A00AD8B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

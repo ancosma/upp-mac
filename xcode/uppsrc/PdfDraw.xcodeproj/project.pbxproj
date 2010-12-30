@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653827D51299D12400A50F8C /* PdfDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C61F01289545200D8267C /* PdfDraw.cpp */; };
+		653827D71299D12600A50F8C /* TTFReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C61F11289545200D8267C /* TTFReader.cpp */; };
+		653827D81299D12700A50F8C /* TTFStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C61F21289545200D8267C /* TTFStream.cpp */; };
+		653827D91299D12800A50F8C /* TTFStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C61F31289545200D8267C /* TTFStruct.cpp */; };
+		653827DA1299D12A00A50F8C /* TTFSubset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654C61F41289545200D8267C /* TTFSubset.cpp */; };
+		6599C82E12B2A9C800CB757A /* libUpppng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6599C75B12B2A53400CB757A /* libUpppng.dylib */; };
+		6599C82F12B2A9CB00CB757A /* UppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6599C76512B2A54F00CB757A /* UppCore.framework */; };
+		6599C83012B2A9CF00CB757A /* UppDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6599C76E12B2A55900CB757A /* UppDraw.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6599C75A12B2A53400CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6538289B129A014200A50F8C /* png.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C60531288B64400D8267C;
+			remoteInfo = dynamic;
+		};
+		6599C75C12B2A53400CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6538289B129A014200A50F8C /* png.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65528CDB127EF06A00AD8B49;
+			remoteInfo = static;
+		};
+		6599C76412B2A54F00CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B1C128862F400D8267C;
+			remoteInfo = UppCore;
+		};
+		6599C76D12B2A55900CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 654C5B851288725B00D8267C;
+			remoteInfo = UppDraw;
+		};
+		6599C82612B2A9BD00CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B1B128862F400D8267C;
+			remoteInfo = UppCore;
+		};
+		6599C82812B2A9BD00CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6538289B129A014200A50F8C /* png.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C60521288B64400D8267C;
+			remoteInfo = dynamic;
+		};
+		6599C82A12B2A9BD00CB757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 654C5B841288725B00D8267C;
+			remoteInfo = UppDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		653827CB1299D06800A50F8C /* UppPdfDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UppPdfDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653827CC1299D06800A50F8C /* UppPdfDraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UppPdfDraw-Info.plist"; sourceTree = "<group>"; };
+		6538289B129A014200A50F8C /* png.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = png.xcodeproj; sourceTree = "<group>"; };
+		654C5C331288868500D8267C /* Draw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Draw.xcodeproj; sourceTree = "<group>"; };
+		654C5C8A12888C8400D8267C /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Core.xcodeproj; sourceTree = "<group>"; };
+		654C5C951288901000D8267C /* libfontconfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfontconfig.dylib; path = /usr/X11/lib/libfontconfig.dylib; sourceTree = "<absolute>"; };
+		654C5C961288901000D8267C /* libfreetype.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.dylib; path = /usr/X11/lib/libfreetype.dylib; sourceTree = "<absolute>"; };
+		654C61EC1289541D00D8267C /* PdfDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfDraw.h; sourceTree = "<group>"; };
+		654C61ED1289541D00D8267C /* ttf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ttf.h; sourceTree = "<group>"; };
+		654C61F01289545200D8267C /* PdfDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PdfDraw.cpp; sourceTree = "<group>"; };
+		654C61F11289545200D8267C /* TTFReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TTFReader.cpp; sourceTree = "<group>"; };
+		654C61F21289545200D8267C /* TTFStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TTFStream.cpp; sourceTree = "<group>"; };
+		654C61F31289545200D8267C /* TTFStruct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TTFStruct.cpp; sourceTree = "<group>"; };
+		654C61F41289545200D8267C /* TTFSubset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TTFSubset.cpp; sourceTree = "<group>"; };
+		654C61FA1289548600D8267C /* PdfReport.icpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PdfReport.icpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653827C91299D06800A50F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6599C82E12B2A9C800CB757A /* libUpppng.dylib in Frameworks */,
+				6599C82F12B2A9CB00CB757A /* UppCore.framework in Frameworks */,
+				6599C83012B2A9CF00CB757A /* UppDraw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FoxCore */ = {
+			isa = PBXGroup;
+			children = (
+				6538289B129A014200A50F8C /* png.xcodeproj */,
+				654C5C8A12888C8400D8267C /* Core.xcodeproj */,
+				654C5C331288868500D8267C /* Draw.xcodeproj */,
+				65528A2A127E845800AD8B49 /* Headers */,
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				653827CC1299D06800A50F8C /* UppPdfDraw-Info.plist */,
+			);
+			name = FoxCore;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				654C5C951288901000D8267C /* libfontconfig.dylib */,
+				654C5C961288901000D8267C /* libfreetype.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				654C61FA1289548600D8267C /* PdfReport.icpp */,
+				654C61F01289545200D8267C /* PdfDraw.cpp */,
+				654C61F11289545200D8267C /* TTFReader.cpp */,
+				654C61F21289545200D8267C /* TTFStream.cpp */,
+				654C61F31289545200D8267C /* TTFStruct.cpp */,
+				654C61F41289545200D8267C /* TTFSubset.cpp */,
+			);
+			name = Source;
+			path = ../../uppsrc/PdfDraw;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653827CB1299D06800A50F8C /* UppPdfDraw.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65528A2A127E845800AD8B49 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				654C61EC1289541D00D8267C /* PdfDraw.h */,
+				654C61ED1289541D00D8267C /* ttf.h */,
+			);
+			name = Headers;
+			path = ../../uppsrc/PdfDraw;
+			sourceTree = "<group>";
+		};
+		6599C75612B2A53400CB757A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6599C75B12B2A53400CB757A /* libUpppng.dylib */,
+				6599C75D12B2A53400CB757A /* libUpppng_static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6599C76112B2A54F00CB757A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6599C76512B2A54F00CB757A /* UppCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6599C76A12B2A55900CB757A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6599C76E12B2A55900CB757A /* UppDraw.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		653827C61299D06800A50F8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		653827CA1299D06800A50F8C /* UppPdfDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653827D31299D06800A50F8C /* Build configuration list for PBXNativeTarget "UppPdfDraw" */;
+			buildPhases = (
+				653827C61299D06800A50F8C /* Headers */,
+				653827C71299D06800A50F8C /* Resources */,
+				653827C81299D06800A50F8C /* Sources */,
+				653827C91299D06800A50F8C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6599C82712B2A9BD00CB757A /* PBXTargetDependency */,
+				6599C82912B2A9BD00CB757A /* PBXTargetDependency */,
+				6599C82B12B2A9BD00CB757A /* PBXTargetDependency */,
+			);
+			name = UppPdfDraw;
+			productName = UppPdfDraw;
+			productReference = 653827CB1299D06800A50F8C /* UppPdfDraw.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = www.ultimatepp.org;
+			};
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "PdfDraw" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* FoxCore */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6599C76112B2A54F00CB757A /* Products */;
+					ProjectRef = 654C5C8A12888C8400D8267C /* Core.xcodeproj */;
+				},
+				{
+					ProductGroup = 6599C76A12B2A55900CB757A /* Products */;
+					ProjectRef = 654C5C331288868500D8267C /* Draw.xcodeproj */;
+				},
+				{
+					ProductGroup = 6599C75612B2A53400CB757A /* Products */;
+					ProjectRef = 6538289B129A014200A50F8C /* png.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				653827CA1299D06800A50F8C /* UppPdfDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6599C75B12B2A53400CB757A /* libUpppng.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libUpppng.dylib;
+			remoteRef = 6599C75A12B2A53400CB757A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6599C75D12B2A53400CB757A /* libUpppng_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUpppng_static.a;
+			remoteRef = 6599C75C12B2A53400CB757A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6599C76512B2A54F00CB757A /* UppCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppCore.framework;
+			remoteRef = 6599C76412B2A54F00CB757A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6599C76E12B2A55900CB757A /* UppDraw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UppDraw.framework;
+			remoteRef = 6599C76D12B2A55900CB757A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653827C71299D06800A50F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653827C81299D06800A50F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653827D51299D12400A50F8C /* PdfDraw.cpp in Sources */,
+				653827D71299D12600A50F8C /* TTFReader.cpp in Sources */,
+				653827D81299D12700A50F8C /* TTFStream.cpp in Sources */,
+				653827D91299D12800A50F8C /* TTFStruct.cpp in Sources */,
+				653827DA1299D12A00A50F8C /* TTFSubset.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6599C82712B2A9BD00CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppCore;
+			targetProxy = 6599C82612B2A9BD00CB757A /* PBXContainerItemProxy */;
+		};
+		6599C82912B2A9BD00CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dynamic;
+			targetProxy = 6599C82812B2A9BD00CB757A /* PBXContainerItemProxy */;
+		};
+		6599C82B12B2A9BD00CB757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UppDraw;
+			targetProxy = 6599C82A12B2A9BD00CB757A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB911F08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					"/usr/X11/include/**",
+				);
+				INSTALL_GROUP = staff;
+				INSTALL_PATH = /Library/Frameworks;
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DflagDEBUG",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = UppPdfDraw;
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB912008733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(UPPSRC_DIR)",
+					"/usr/X11/include/**",
+				);
+				INSTALL_GROUP = staff;
+				INSTALL_PATH = /Library/Frameworks;
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = UppPainter;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.6;
+				SHARED_PRECOMPS_DIR = "$(UPP_OUT)/$(PROJECT_NAME)/SharedPrecompiledHeaders";
+				SKIP_INSTALL = NO;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "$(UPP_OUT)/build";
+				UPPSRC_DIR = /Users/Shared/upp/uppsrc;
+				UPP_OUT = /Users/Shared/upp/out/Xcode;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		653827CE1299D06800A50F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "UppPdfDraw-Info.plist";
+				INSTALL_PATH = /Library/Frameworks;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DflagOSX11",
+					"-DflagDEBUG",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = UppPdfDraw;
+			};
+			name = Debug;
+		};
+		653827CF1299D06800A50F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "UppPdfDraw-Info.plist";
+				INSTALL_PATH = /Library/Frameworks;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = UppPdfDraw;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "PdfDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911F08733D790010E9CD /* Debug */,
+				1DEB912008733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653827D31299D06800A50F8C /* Build configuration list for PBXNativeTarget "UppPdfDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653827CE1299D06800A50F8C /* Debug */,
+				653827CF1299D06800A50F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
